@@ -24,7 +24,6 @@ blank PCB
 
 | Quantity | Description                  | PCB/Schematic's Reference                                        |
 | -------- | ---------------------------- | ---------------------------------------------------------------- |
-| 1        | CON 4 PIN                    | BAT                                                              |
 | 14       | CAP ELKO 10 uF 25V RM 2,5    | C1, C2, C4, C9, C14, C18, C28, C29, C34, C37, C40, C44, C46, C48 |
 | 11       | CAP CER 100 nF RM 5,0        | C10, C17, C20, C22, C32, C33, C43, C45, C47, C50, C65            |
 | 4        | CAP CER 30 pF RM 5,0         | C11, C13, C36, C38                                               |
