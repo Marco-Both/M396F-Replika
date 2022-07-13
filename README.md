@@ -74,6 +74,11 @@ blank PCB
 | 1        | Quarz 32,768 kHz             | X1                                                               |
 | 1        | Quarz 14,31818 MHz           | X2                                                               |
 
+# Notice
+
+Top view
+[![](images/backside.jpg 'backside')](#backside)
+
 # Licence
 
 The project is free for non-commercial reproduktion
