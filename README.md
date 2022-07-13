@@ -76,7 +76,7 @@ blank PCB
 
 # Notice
 
-Top view
+Backside position CXX (CAP CER 220 pF axial)
 [![](images/backside.jpg 'backside')](#backside)
 
 # Licence
