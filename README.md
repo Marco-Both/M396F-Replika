@@ -5,10 +5,11 @@ Replica of a 386SX Mainboard
 # PCB Revision History
 
 - V0.1 Initial revision 2022 made with Sprint-Layout
+- V0.2 Silkscreen updated, component positions and mounting holes modified
 
 # Specs
 
-This replica of a 386SX motherboard is based on the SARC RC2016A chipset. Supported are 386SX or CX486SLC 25/33/40 MHz CPUs. A socket for the optional 80387SX coprocessor is available. The RAM reaches from 512kb to 16MB.
+This replica of a 386SX motherboard is based on the SARC RC2016A chipset. Supported are 386SX or CX486SLC 25/33/40 MHz CPUs. A socket for the optional 80387SX coprocessor is available. The RAM reaches from 512kb to 16MB. I recommend faster 60ns RAM.
 
 # Images
 
@@ -26,9 +27,10 @@ blank PCB
 | -------- | ---------------------------- | ---------------------------------------------------------------- |
 | 4        | CAP CER 30 pF RM 5,0         | C11, C13, C36, C38                                               |
 | 3        | CAP CER 47 pF RM 5,0         | C12, C15, C66                                                    |
-| 1        | CAP CER 220 pF axial         | CXX (Backside see notice)                                        |
+| 1        | CAP CER 220 pF               | CXX (Backside see notice)                                        |
 | 1        | CAP CER 4,7 nF RM 5,0        | C16                                                              |
-| 11       | CAP CER 100 nF RM 5,0        | C10, C17, C20, C22, C32, C33, C43, C45, C47, C50, C65            |
+| 1        | CAP CER 100 pF nF RM 5,0     | C65                                                              |
+| 10       | CAP CER 100 nF RM 5,0        | C10, C17, C20, C22, C32, C33, C43, C45, C47, C50                 |
 | 14       | CAP ELKO 10 uF 25V RM 2,5    | C1, C2, C4, C9, C14, C18, C28, C29, C34, C37, C40, C44, C46, C48 |
 | 2        | DIODE 1N4148                 | D1, D2                                                           |
 | 6        | 16 Bit ISA Socket            | J2, J3, J4, J5, J6, J7                                           |
@@ -76,8 +78,14 @@ blank PCB
 
 # Notice
 
-Backside position CXX (CAP CER 220 pF axial)
+Backside position CXX (CAP CER 220 pF axial or 0805 SMD)
 [![](images/backside.jpg 'backside')](#backside)
+
+# Mounting holes
+
+This board uses the mounting holes marked in green. Modern AT cases often only have the red marked holes.
+
+[![](images/mounting_holes.jpg 'mounting_holes')](#mounting_holes)
 
 # Licence
 
