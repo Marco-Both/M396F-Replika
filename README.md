@@ -70,7 +70,7 @@ blank PCB
 | 1        | IC W85C168                   | U4                                                               |
 | 1        | IC TC4069UBP                 | U5                                                               |
 | 1        | IC PLL52C05S o. TK9107-2     | U6                                                               |
-| 1        | IC 386SX o. 486SX max 40 MHz | U7                                                               |
+| 1        | IC CPU                       | U7                                                               |
 | 1        | IC Coprocessor               | U8                                                               |
 | 1        | IC Chipset                   | U9                                                               |
 | 4        | IC RAM (60ns)                | U10, U11, U12, U13                                               |
