@@ -10,6 +10,7 @@ Replica of a 386SX Mainboard
 # Specs
 
 This replica of a 386SX motherboard is based on the SARC RC2016A chipset. Supported are 386SX or CX486SLC 25/33/40 MHz CPUs. A socket for the optional 80387SX coprocessor is available. The RAM reaches from 512kb to 16MB. I recommend faster 60ns RAM.
+The manual, jumper settings and useful downloads can be found here https://theretroweb.com/motherboards/s/pcchips-m396f-ver.2.6#downloads
 
 # Images
 
@@ -63,16 +64,16 @@ blank PCB
 | 1        | RES Network 330 Ohm bussed   | RP3                                                              |
 | 3        | RES Network 10 Ohm parallel  | RP4, RP5, RP6                                                    |
 | 1        | RES Network 100 Ohm parallel | RP7                                                              |
-| 1        | IC Keyboard                  | U1                                                               |
+| 1        | IC SARC 6042 o. VIA VT82C42  | U1                                                               |
 | 1        | IC 74HC05AP                  | U2                                                               |
 | 1        | IC BIOS                      | U3                                                               |
 | 1        | IC W85C168                   | U4                                                               |
 | 1        | IC TC4069UBP                 | U5                                                               |
 | 1        | IC PLL52C05S o. TK9107-2     | U6                                                               |
-| 1        | IC CPU                       | U7                                                               |
+| 1        | IC 386SX o. 486SX max 40 MHz | U7                                                               |
 | 1        | IC Coprocessor               | U8                                                               |
 | 1        | IC Chipset                   | U9                                                               |
-| 4        | IC RAM                       | U10, U11, U12, U13                                               |
+| 4        | IC RAM (60ns)                | U10, U11, U12, U13                                               |
 | 1        | Quarz 32,768 kHz             | X1                                                               |
 | 1        | Quarz 14,31818 MHz           | X2                                                               |
 
@@ -89,4 +90,4 @@ This board uses the mounting holes marked in green. Modern AT cases often only h
 
 # Licence
 
-The project is free for non-commercial reproduktion
+The project is free for non-commercial reproduktion. Do not sell it on ebay or other platforms for profit. Do not make a closed source. Share your experiences and ideas with the community.
