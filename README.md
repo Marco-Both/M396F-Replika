@@ -6,6 +6,7 @@ Replica of a 386SX Mainboard
 
 - V0.1 Initial revision 2022 made with Sprint-Layout
 - V0.2 Silkscreen updated, component positions and mounting holes modified
+- V0.3 fix 5V bug on J7, add alternative to U6
 
 # Specs
 
